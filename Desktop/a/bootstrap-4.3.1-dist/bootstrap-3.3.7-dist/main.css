@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+
+body{
+	background-color:#f2f2f2;
+	font-family:"Lato";
+	font-weight:300;
+	font-size:16px;
+	color:#555;
+	
+-webkit-font-smoothing:antialised;
+
+margin-top:70;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:"Raleway";
+	font-weight:300;
+	color:#333;
+}
+
+p{
+	line-height:28px;
+	margin-bottom:25;
+}
+
+.centered{
+	text-align:center;
+}
+
+a{
+	color:#f85c37;
+}
+
+a:hover, a:focus{
+	color:7b7b7b;
+	text-decoration:none;
+	outline:0;
+}
+
+hr{
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #ccc;
+	margin:1em 0;
+	padding:0;
+	
+}
+
+.navbar{
+	font-weight:800;
+	font-size:14px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.navbar-inverse{
+	background:#2d2d2d;
+	border-color:2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	background-color:#ff7878;
+}
+
+.navbar-inverse .navbar-brand { 
+	color:#999;
+	font-weight:bolder;
+	font-size:22px;
+	letter-spacing:1px;
+}
+	
+	
+#headewrap{
+background: url(./img/fon.jpg) no-repeat center top;
+margin-top:-10px;
+padding-top:20px;
+text-align:center;
+background-attachment:relative;
+background-position:center center;
+min-height:500px;
+width:100%;
+color:#00ff00;
+
+background-size:100%;
+
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-g-background-size:cover;
+-background-size:cover;
+}
+
+#headewrap h1{
+	margin-top:100px;
+	color:white;
+	font-size:70px;
+	font-weight:300;
+	letter-spacing:3px;
+}
+
+#headewrap h2{
+color:white;
+font-size:40px;
+letter-spacing:2px;
+text-transform:uppercase;
+}
+.info{
+	position:relative;
+	top:300px;
+	height:150px;
+	width:100%;
+	background:#FFF;
+		border: 1px solid #b5e9a7;
+	
+}
+.product p {
+	position: relative;
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4em;
+	height: 5.6em;
+	overflow: hidden;
+}
+.product p:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 4.2em;
+	height: 1.6em;
+	background: linear-gradient(to left top, #fff, rgba(255, 255, 255, 0));
+}
+.w{
+	padding-top:35px;
+}
+
+.w h4{	
+	font-size:25px;
+}
+
+.product-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}
+.product {
+	display: block;
+	border: 1px solid #b5e9a7;
+	border-radius: 3px;
+	position: relative;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 300px;
+}
+
+#img2>.product{
+	
+	background:url('');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	background-color:#FFF;
+	
+}
+#img3>.product{
+	
+	background:url('file:///C:/Users/%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82/Desktop/1/bootstrap-4.3.1-dist/bootstrap-3.3.7-dist/img/5.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	background-color:#FFF;
+	
+}
+#img4>.product{
+	
+	background:url('file:///C:/Users/%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82/Desktop/1/bootstrap-4.3.1-dist/bootstrap-3.3.7-dist/img/57.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	background-color:#FFF;
+	
+}
+#img5>.product{
+	
+	background:url('file:///C:/Users/%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82/Desktop/1/bootstrap-4.3.1-dist/bootstrap-3.3.7-dist/img/dark.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	background-color:#FFF;
+	
+}
+#img6>.product{
+	
+	background:url('file:///C:/Users/%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82/Desktop/1/bootstrap-4.3.1-dist/bootstrap-3.3.7-dist/img/e.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	background-color:#FFF;
+	
+}
+#img7>.product{
+	
+	background:url('file:///C:/Users/%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82/Desktop/1/bootstrap-4.3.1-dist/bootstrap-3.3.7-dist/img/760.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	background-color:#FFF;
+	
+}
+
+.products {
+	list-style: none;
+	margin: 0 -20px 0 0;
+	padding: 0;
+}
+.product-photo {
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+
+}
+.product-photo img {
+	position: absolute;
+	top: -30;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 80%;
+	margin: auto;
+	transition: transform .4s ease-out;
+}
+
+
+.order-status {
+	position: relative;
+	top: 220px;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	
+}
